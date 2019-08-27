@@ -5,6 +5,8 @@ Let the user type in an integer and that keeps calling collatz() on that number
 until the function returns the value 1. (Amazingly enough, this sequence actually 
 works for any integer—sooner or later, using this sequence, you’ll arrive at 1! 
 """
+
+
 def collatez(number):
     while number > 1:
         print(number)
